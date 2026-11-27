@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.HomeworkLogistics" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:alertDialogTheme">@style/RoundedAlertDialog</item>
+    </style>
+
+    <!-- 圆角对话框：windowBackground 换成圆角 shape，列表与按钮仍保留系统内边距 -->
+    <style name="RoundedAlertDialog" parent="android:style/Theme.Material.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/dialog_round</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:colorAccent">#4F46E5</item>
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>
+    </style>
+</resources>

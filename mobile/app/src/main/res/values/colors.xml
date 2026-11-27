@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ink">#1C1917</color>
+    <color name="muted">#57534E</color>
+    <color name="ok">#047857</color>
+    <color name="error">#B91C1C</color>
+</resources>

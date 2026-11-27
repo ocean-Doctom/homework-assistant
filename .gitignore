@@ -1,0 +1,42 @@
+# 构建产物
+mobile/app/build/
+mobile/build/
+mobile/.gradle/
+desktop/node_modules/
+desktop/dist/
+desktop/release/
+desktop/out/
+
+# 签名与密钥（含密码，绝不入库）
+*.keystore
+*.jks
+keystore.properties
+
+# 安装包
+*.apk
+*.aab
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 大文件不进仓库
+*.zip
+
+# 云端数据快照（含真实姓名学号，绝不入库）
+backups/
+
+# 本机 SDK 路径
+local.properties
+
+# 服务端依赖与密钥
+server/node_modules/
+server/data/secret
+
+# 服务端运行时数据（含演示账号哈希，不入库）
+server/data/
